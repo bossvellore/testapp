@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command WallInfo</Text>
+    <Description>Some description for WallInfo</Description>
+    <Assembly>WallInfo.dll</Assembly>
+    <FullClassName>WallInfo.Command</FullClassName>
+    <ClientId>b60c943d-c7bc-4b05-8da1-e09b867ed3dd</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application WallInfo</Name>
+    <Assembly>WallInfo.dll</Assembly>
+    <FullClassName>WallInfo.App</FullClassName>
+    <ClientId>e29c1e53-f42f-465b-957a-3af16c5bc6d4</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
